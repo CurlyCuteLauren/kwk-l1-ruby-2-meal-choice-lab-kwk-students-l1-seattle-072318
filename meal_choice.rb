@@ -10,6 +10,10 @@ def breakfast(food="French Toast")
 end
 puts breakfast(food= "French Toast")
 
+def Lunch(food="sandwich")
+  puts "If you are in a hurry you can make a #{food} for Lunch."
+end
+puts Lunch(food="sandwich")
 
 
 
