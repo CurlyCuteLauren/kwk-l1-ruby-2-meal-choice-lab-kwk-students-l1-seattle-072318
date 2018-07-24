@@ -8,24 +8,23 @@ end
 def breakfast(food="French Toast")
   puts "You can eat #{food} for Breakfast, Lunch or Dinner even though it is a Breakfast food."
 end
-puts breakfast(food= "French Toast")
+
 
 def Lunch(food="sandwich")
   puts "If you are in a hurry you can make a #{food} for Lunch."
 end
-puts Lunch(food="sandwich")
+
 
 def Dinner(food="tacos")
   puts "You can eat #{food} anytime and all the time!"
 end
+
+
+puts breakfast(food= "French Toast")
+puts Lunch(food="sandwich")
 puts Dinner(food="tacos")
 
 
-
-
-# Call the methods with puts and your own arguments here. Like this:
-puts snacks("Swedish fish")
-## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
 
