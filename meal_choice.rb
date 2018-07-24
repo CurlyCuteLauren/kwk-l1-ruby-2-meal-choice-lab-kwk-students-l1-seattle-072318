@@ -8,7 +8,7 @@ end
 def breakfast(food="French Toast")
   puts "You can eat #{food} for Breakfast, Lunch or Dinner even though it is a Breakfast food."
 end
-puts breakfast(food)
+puts breakfast(food= "French Toast")
 
 
 
