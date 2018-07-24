@@ -25,7 +25,6 @@ puts Lunch(food="sandwich")
 puts Dinner(food="tacos")
 
 
-# Call your methods without any arguments here
 puts snacks
 puts breakfast
 puts Lunch
