@@ -25,10 +25,9 @@ puts Lunch(food="sandwich")
 puts Dinner(food="tacos")
 
 
-
-# call your methods here
-
-
 # Call your methods without any arguments here
 puts snacks
+puts breakfast
+puts Lunch
+puts Dinner
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
