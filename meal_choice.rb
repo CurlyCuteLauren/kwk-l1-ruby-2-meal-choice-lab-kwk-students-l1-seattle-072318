@@ -15,6 +15,11 @@ def Lunch(food="sandwich")
 end
 puts Lunch(food="sandwich")
 
+def Dinner(food="tacos")
+  puts "You can eat #{food} anytime and all the time!"
+end
+puts Dinner(food="tacos")
+
 
 
 
