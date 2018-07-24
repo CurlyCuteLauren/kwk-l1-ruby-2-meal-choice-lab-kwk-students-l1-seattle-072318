@@ -5,7 +5,10 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
-
+def breakfast(food="French Toast")
+  puts "You can eat #{food} for Breakfast, Lunch or Dinner even though it is a Breakfast food."
+end
+puts breakfast(food)
 
 
 
